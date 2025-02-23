@@ -49,11 +49,22 @@ The **AI Health Assistant** is a Streamlit-based web application that provides m
    git clone https://github.com/rameshchandra8520/ai-health-assistant.git
    cd ai-health-assistant
    ```
-2. Install dependencies:
+2. **Create and activate a virtual environment:**
+   - **On Windows:**
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+   - **On macOS/Linux:**
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the app:
+4. Run the app:
    ```bash
    streamlit run app.py
    ```
